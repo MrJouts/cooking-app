@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Menu(props) {
     return (
         <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-                <a className="nav-link" href="#">Recetas</a>
+                <Link to="/recetas" className="nav-link">Recetas</Link>
             </li>
             <li className="ml-auto nav-item">
-                <a href="" className="nav-link">Contacto</a>
+                <Link to="/contacto" className="nav-link">Contacto</Link>
             </li>
         </ul>
     )

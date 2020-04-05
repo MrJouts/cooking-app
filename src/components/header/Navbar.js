@@ -1,16 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Menu from "./Menu";
 
 function Navbar(props) {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container">
-                <a className="navbar-brand" href="#">Cook App</a>
+                <Link to="/" className="navbar-brand">Cook App</Link>
                   <div className="collapse navbar-collapse" >
                     <Menu />
-                    <div className="ml-auto">
-                        login
-                    </div>
+                    <div className="ml-auto">login</div>
                 </div>
             </div>
         </nav>
