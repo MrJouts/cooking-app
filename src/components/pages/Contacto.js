@@ -3,7 +3,11 @@ import React from "react";
 function Contacto(props) {
     return (
         <div>
-            <h1>Contacto</h1>
+            <section className="jumbotron">
+                <div className="container">
+                    <h1 className="display-4">Contacto</h1>
+                </div>
+            </section>
         </div>
     )
 }

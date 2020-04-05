@@ -10,12 +10,18 @@ import Home from "./components/pages/Home";
 import Recetas from "./components/pages/Recetas";
 import Contacto from "./components/pages/Contacto";
 
+import Modal from "./components/Modal";
+
 function App() {
+
+  const showModal = () => console.log('show modal app.js');
+
   return (
     <div className="App">
 
       <Router>
-        <Header />
+        <Header showModal={showModal} />
+        <Modal />
         <Switch>
           <Route exact path="/">
             <Home />

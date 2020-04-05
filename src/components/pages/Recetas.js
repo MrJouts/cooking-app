@@ -3,7 +3,11 @@ import React from "react";
 function Recetas(props) {
     return (
         <div>
-            <h1>Recetas</h1>
+            <section className="jumbotron">
+                <div className="container">
+                    <h1 className="display-4">Recetas</h1>
+                </div>
+            </section>
         </div>
     )
 }
