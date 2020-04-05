@@ -3,9 +3,11 @@ import React from "react";
 function Contacto(props) {
     return (
         <div>
-            <section className="jumbotron">
-                <div className="container">
-                    <h1 className="display-4">Contacto</h1>
+            <section className="hero is-dark">
+                <div className="hero-body">
+                    <div className="container">
+                        <h1 className="title">Contacto</h1>
+                    </div>
                 </div>
             </section>
         </div>

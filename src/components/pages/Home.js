@@ -1,14 +1,20 @@
 import React from "react";
 
+import "../../App.scss";
+
 function Home(props) {
     return (
         <div>
-            <section className="jumbotron">
-                <div className="container">
-                    <h1 className="display-4">Hello, world!</h1>
-                    <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            
+            {/* Title */}
+            <section className="hero is-primary">
+                <div className="hero-body">
+                    <div className="container">
+                        <h1 className="title">Bienvenidos</h1>
+                    </div>
                 </div>
             </section>
+
         </div>
     )
 }
