@@ -3,3 +3,13 @@
 @import '../node_modules/bulma/sass/elements/button.sass';
 
 @import './styles/header';
+
+
+.level.hero-home {
+  justify-content: center;
+
+  // background-image: url(./home-bk.jpg) center center no-repeat;
+  input {
+    min-width: 400px;
+  }
+}

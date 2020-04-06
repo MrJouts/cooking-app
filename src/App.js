@@ -12,13 +12,14 @@ import Contacto from "./components/pages/Contacto";
 
 import Modal from "./components/Modal";
 
+// import logo from "./logo192.png";
+
 function App() {
 
   const showModal = () => console.log('show modal app.js');
 
   return (
     <div className="App">
-
       <Router>
         <Header showModal={showModal} />
         <Modal />
